@@ -1,0 +1,87 @@
+body {
+  margin: 0px
+}
+
+.login {
+  background-color: rgb(193, 190, 255);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .card {
+    width: 50%;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    min-height: 400px;
+    overflow: hidden;
+
+    .left {
+      flex: 1;
+      background: linear-gradient(rgba(39,11,96,0.5), rgba(39,11,96,0.5)), url("https://media.istockphoto.com/photos/group-of-people-raising-their-hands-against-a-sunset-picture-id1160644769?b=1&k=6&m=1160644769&s=170667a&w=0&h=12DEJBMzHyyUCY67nXL-ly2fHPKdov6JjWdoEp3XYyw=") center;
+      background-size: cover;
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      color: white;
+
+      h1 {
+        font-size: 60px;
+        margin: -10px;
+      }
+
+      /*p{
+      }*/
+
+      span {
+        font-size: 14px;
+      }
+
+      button {
+        width: 50%;
+        padding: 10px;
+        border: none;
+        background-color: white;
+        color: rebeccapurple;
+        font-weight: bold;
+        cursor: pointer;
+      }
+    }
+    
+    .right {
+      flex: 1;
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      h1 {
+        color: #555;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        input {
+          border: none;
+          border-bottom: 1px solid lightgray;
+          padding: 20px 10px;
+        }
+
+        button {
+          width: 50%;
+          padding: 10px;
+          border: none;
+          background-color: #938eef;
+          color: white;
+          font-weight: bold;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
